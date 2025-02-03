@@ -1,0 +1,22 @@
+/* Page separator */
+.page-separator {
+    background: repeating-linear-gradient(135deg,
+            #eeeeee,
+            #eeeeee 5px,
+            transparent 5px,
+            transparent 10px);
+}
+
+
+/* Input with label */
+.input-label1:has(input[disabled]) {
+    @apply bg-gray-3 !important;
+}
+
+/* Input radio */
+.input-radio-basic:has(input[disabled]) .radio-button {
+    @apply bg-gray-3 !important;
+}
+.input-radio-basic:has(input[disabled]) .radio-button .radio-thumb {
+    @apply bg-gray-400 !important;
+}
